@@ -1,0 +1,13 @@
+### Crear un producto
+POST http://localhost:8080/api/productos
+Content-Type: application/json
+
+{
+  "nombre": "Auriculares Bluetooth",
+  "precio": 25000,
+  "stock": 15,
+  "categoria": "ELECTRONICA"
+}
+
+### Ver todos los productos
+GET http://localhost:8080/api/productos
